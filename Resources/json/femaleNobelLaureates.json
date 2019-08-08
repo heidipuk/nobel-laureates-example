@@ -1,0 +1,164 @@
+{
+  "data":[
+    {
+      "id": 1,
+      "fullName": "Marie Skłodowska Curie",
+      "category": "physics",
+      "year": 1903,
+      "rationale": "in recognition of the extraordinary services they have rendered by their joint researches on the radiation phenomena discovered by Professor Henri Becquerel",
+      "isShared": true
+    },
+    {
+      "id": 2,
+      "fullName": "Marie Skłodowska Curie",
+      "category": "chemistry",
+      "year": 1911,
+      "rationale": "for her discovery of radium and polonium",
+      "isShared": false
+    },
+    {
+      "id": 3,
+      "fullName": "Irène Joliot-Curie",
+      "category": "chemistry",
+      "year": 1935,
+      "rationale": "for their synthesis of new radioactive elements",
+      "isShared": true
+    },
+    {
+      "id": 4,
+      "fullName": "Gerty Theresa Cori",
+      "category": "physiology or medicine",
+      "year": 1947,
+      "rationale": "for their discovery of the course of the catalytic conversion of glycogen",
+      "isShared": true
+    },
+    {
+      "id": 5,
+      "fullName": "Maria Goeppert-Mayer",
+      "category": "physics",
+      "year": 1963,
+      "rationale": "for their discoveries concerning nuclear shell structure",
+      "isShared": true
+    },
+    {
+      "id": 6,
+      "fullName": "Dorothy Crowfoot Hodgkin",
+      "category": "chemistry",
+      "year": 1964,
+      "rationale": "for her determinations by X-ray techniques of the structures of important biochemical substances",
+      "isShared": false
+    },
+    {
+      "id": 7,
+      "fullName": "Rosalyn Sussman Yalow",
+      "category": "physiology or medicine",
+      "year": 1977,
+      "rationale": "for the development of radioimmunoassays of peptide hormones",
+      "isShared": true
+    },
+    {
+      "id": 8,
+      "fullName": "Barbara McClintock",
+      "category": "physiology or medicine",
+      "year": 1983,
+      "rationale": "for her discovery of mobile genetic elements",
+      "isShared": false
+    },
+    {
+      "id": 9,
+      "fullName": "Rita Levi-Montalcini",
+      "category": "physiology or medicine",
+      "year": 1986,
+      "rationale": "for their discoveries of growth factors",
+      "isShared": true
+    },
+    {
+      "id": 10,
+      "fullName": "Gertrude B. Elion",
+      "category": "physiology or medicine",
+      "year": 1988,
+      "rationale": "or their discoveries of important principles for drug treatment",
+      "isShared": true
+    },
+    {
+      "id": 11,
+      "fullName": "Christiane Nüsslein-Volhard",
+      "category": "physiology or medicine",
+      "year": 1995,
+      "rationale": "for their discoveries concerning the genetic control of early embryonic development",
+      "isShared": true
+    },
+    {
+      "id": 12,
+      "fullName": "Linda B. Buck",
+      "category": "physiology or medicine",
+      "year": 2004,
+      "rationale": "for their discoveries of odorant receptors and the organization of the olfactory system",
+      "isShared": true
+    },
+    {
+      "id": 13,
+      "fullName": "Françoise Barré-Sinoussi",
+      "category": "physiology or medicine",
+      "year": 2008,
+      "rationale": "for their discovery of HIV, human immunodeficiency virus",
+      "isShared": true
+    },
+    {
+      "id": 14,
+      "fullName": "Elizabeth Blackburn",
+      "category": "physiology or medicine",
+      "year": 2009,
+      "rationale": "for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase",
+      "isShared": true
+    },
+    {
+      "id": 15,
+      "fullName": "Carol W. Greider",
+      "category": "physiology or medicine",
+      "year": 2009,
+      "rationale": "for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase",
+      "isShared": true
+    },
+    {
+      "id": 16,
+      "fullName": "Ada E. Yonath",
+      "category": "chemistry",
+      "year": 2009,
+      "rationale": "for studies of the structure and function of the ribosome",
+      "isShared": true
+    },
+    {
+      "id": 17,
+      "fullName": "May-Britt Moser",
+      "category": "physiology or medicine",
+      "year": 2014,
+      "rationale": "for their discoveries of cells that constitute a positioning system in the brain",
+      "isShared": true
+    },
+    {
+      "id": 18,
+      "fullName": "Tu Youyou",
+      "category": "physiology or medicine",
+      "year": 2015,
+      "rationale": "for her discoveries concerning a novel therapy against Malaria (artemisinin)",
+      "isShared": true
+    },
+    {
+      "id": 19,
+      "fullName": "Donna Strickland",
+      "category": "physics",
+      "year": 2018,
+      "rationale": "for their method of generating high-intensity, ultra-short optical pulses",
+      "isShared": true
+    },
+    {
+      "id": 20,
+      "fullName": "Frances Arnold",
+      "category": "chemistry",
+      "year": 2018,
+      "rationale": "for the directed evolution of enzymes",
+      "isShared": true
+    }
+  ]
+}

@@ -1,10 +1,10 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.0.0
 import PackageDescription
 
 let package = Package(
-    name: "mock-api",
+    name: "nobel-laureates-example",
     products: [
-        .library(name: "mock-api", targets: ["App"]),
+        .library(name: "nobel-laureates-example", targets: ["App"]),
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
@@ -19,4 +19,3 @@ let package = Package(
         .testTarget(name: "AppTests", dependencies: ["App"])
     ]
 )
-
