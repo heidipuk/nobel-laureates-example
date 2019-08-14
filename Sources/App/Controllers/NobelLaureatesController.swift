@@ -4,17 +4,17 @@ final class NobelLaureatesController {
     func getAll(
         req: Request
     ) throws -> Future<[NobelLaureates]> {
-        let decodedLaureates = try NobelLaureates.decodeFromData()
-        return req.future(decodedLaureates.data)
+        let decodedLaureates = try NobelLaureates.loadFromFile()
+        return req.future(decodedLaureates)
     }
 
     func getSingle(
         req: Request
     ) throws -> Future<NobelLaureates> {
         let laureatesID = try req.parameters.next(Int.self)
-        let decodedLaureates = try NobelLaureates.decodeFromData()
+        let decodedLaureates = try NobelLaureates.loadFromFile()
         return try req.future(
-            decodedLaureates.data.findOrThrow(id: laureatesID)
+            decodedLaureates.findOrThrow(id: laureatesID)
         )
     }
 }

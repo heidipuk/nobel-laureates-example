@@ -28,16 +28,19 @@ final class NobelLaureates: Codable {
 extension NobelLaureates: Content {}
 
 extension NobelLaureates {
-    static func decodeFromData() throws -> LaureatesDecoderObject {
+    static func loadFromFile(
+        _ fileName: String = "femaleNobelLaureates.json"
+    ) throws -> [NobelLaureates] {
         let decoder = JSONDecoder()
-        let laureatesData = try Data.fromFile("femaleNobelLaureates.json")
-        return try decoder.decode(
+        let laureatesData = try Data.fromFile(fileName)
+        let decodedNobelLaureates = try decoder.decode(
             LaureatesDecoderObject.self,
             from: laureatesData
         )
+        return decodedNobelLaureates.data
     }
 
-    struct LaureatesDecoderObject: Content {
+    private struct LaureatesDecoderObject: Content {
         var data: [NobelLaureates]
     }
 }
